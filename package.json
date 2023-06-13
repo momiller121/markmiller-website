@@ -30,7 +30,10 @@
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.3.0",
-		"vitest": "^0.25.3"
+		"vitest": "^0.25.3",
+		"@fontsource/rammetto-one": "^5.0.3",
+		"lucide-svelte": "^0.244.0",
+		"open-props": "^1.5.8"
 	},
 	"type": "module"
 }
