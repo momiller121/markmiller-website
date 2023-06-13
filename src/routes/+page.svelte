@@ -6,4 +6,4 @@
 <h1>Personal Website</h1>
 <p>@{ data.host }</p>
 
-<pre>{new Date().toLocaleDateString}</pre>
+<pre>{new Date().toISOString()}</pre>
