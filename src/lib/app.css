@@ -1,0 +1,13 @@
+html,
+body {
+    height: 100%;
+    margin-block: var(--size-2);
+    margin-inline: var(--size-2);
+}
+
+html {
+    color: var(--text-1);
+    accent-color: var(--link);
+    background-image: var(--background);
+    background-attachment: fixed;
+}

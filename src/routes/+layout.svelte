@@ -1,12 +1,19 @@
-<script>
+<script lang="ts">
+	import type { LayoutData } from './$types'
 	import 'open-props/style'
 	import 'open-props/normalize'
 	import 'open-props/buttons'
 	import '@fontsource/rammetto-one'
-	// import './styles.css';
+	// Supports weights 400-700
+	import '@fontsource-variable/caveat'
+	import '$lib/app.css'
+
+	export let data: LayoutData
 </script>
 
-<svelte:head />
+<svelte:head>
+	<title>{data.title}</title>
+</svelte:head>
 <div class="app">
 	<main>
 		<slot />
