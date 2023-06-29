@@ -19,3 +19,10 @@
 		<slot />
 	</main>
 </div>
+
+<style>
+	.app {
+		max-width: 65ch;
+		margin-inline: auto;
+	}
+</style>

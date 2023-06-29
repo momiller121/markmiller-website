@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types'
+	import Avatar from '../components/avatar.svelte'
 	export let data: PageData
 
 	// I will experiment with this regarding cache control and
@@ -7,7 +8,11 @@
 	$: renderTime = new Date(data.renderedTS).toISOString()
 </script>
 
-<h1>{data.title}</h1>
+<div>
+	<h1>{data.title}</h1>
+	<Avatar />
+</div>
+
 <p>@{data.host}</p>
 
 <pre>{renderTime}</pre>
@@ -17,6 +22,10 @@
 <p class="description">{data.description}</p>
 
 <style>
+	div {
+		display: flex;
+		justify-content: space-between;
+	}
 	p {
 		font-family: 'Caveat Variable', sans-serif;
 		font-size: var(--font-size-5);
