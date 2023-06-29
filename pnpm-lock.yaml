@@ -41,9 +41,6 @@ devDependencies:
   eslint-plugin-svelte:
     specifier: ^2.32.0
     version: 2.32.0(eslint@8.43.0)(svelte@4.0.1)
-  lucide-svelte:
-    specifier: ^0.256.0
-    version: 0.256.0(svelte@4.0.1)
   open-props:
     specifier: ^1.5.10
     version: 1.5.10
@@ -1543,14 +1540,6 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
-    dev: true
-
-  /lucide-svelte@0.256.0(svelte@4.0.1):
-    resolution: {integrity: sha512-F1XMEOV+uyVbGygzojz0ly7pa+fQb0l1uxc6g1MDZQBoqo4LPgqTdaDWMkpH+YEsIsA3OIs7PEcTs9AZmTaIXQ==}
-    peerDependencies:
-      svelte: ^3.49.0
-    dependencies:
-      svelte: 4.0.1
     dev: true
 
   /magic-string@0.27.0:
